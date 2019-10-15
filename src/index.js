@@ -47,7 +47,7 @@ crawler()
     .then(subtitles => {
         fileSystem.writeFile('./src/subtitles.json', JSON.stringify(subtitles), error => {
             if (error) throw error;
-            console.log('The file has been saved! 💫');
+            console.log('The file has been saved at src/subtitles.json! 💫');
         });
     })
     .catch(console.log)
