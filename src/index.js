@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const puppeteer = require('puppeteer');
 const fileSystem = require('fs');
-const email = process.env.EMAIL;
+const user = process.env.USER;
 const password = process.env.PASSWORD;
 const search = 'The Simpsons';
 
@@ -14,7 +14,7 @@ const crawler = async () => {
     await page.goto('http://legendas.tv/login');
 
     console.log('Type login info...');
-    await page.type('#UserUsername', email);
+    await page.type('#UserUsername', user);
     await page.type('#UserPassword', password);
     await page.click('#UserLoginForm .btn');
 
