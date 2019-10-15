@@ -1,0 +1,21 @@
+{
+  "name": "legendastv-crawler",
+  "version": "1.0.0",
+  "description": "Legendas.tv The Simpsons Crawler",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolinedealencar/legendastv-crawler.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karolinedealencar/legendastv-crawler/issues"
+  },
+  "homepage": "https://github.com/karolinedealencar/legendastv-crawler#readme"
+}
