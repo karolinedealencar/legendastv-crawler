@@ -50,4 +50,4 @@ crawler()
             console.log('The file has been saved at src/subtitles.json! 💫');
         });
     })
-    .catch(console.log)
+    .catch(error => console.log(error))
