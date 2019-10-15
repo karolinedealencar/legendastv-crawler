@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Legendas.tv The Simpsons Crawler",
   "main": "src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "puppeteer": "^1.20.0"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node src/index.js"
